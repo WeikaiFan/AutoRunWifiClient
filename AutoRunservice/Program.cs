@@ -27,7 +27,7 @@ namespace AutoRunservice
         {
             ProcessMonitor processMonitor = new ProcessMonitor();
             processMonitor.AutoRun(_ftpServerIP, _ftpPath, _ftpUserID, _ftpPassword, _appPath, _appFile, _registryKeyName, _processName, _runTimeInterval);
-            //Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
